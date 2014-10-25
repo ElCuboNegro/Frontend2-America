@@ -2,22 +2,24 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta description="comunidad para gente atractiva y millonaria" />
-	<title>Puls4: Comunidad para gente atractiva y millonaria</title>
-	<link rel="stylesheet" type="text/css" href="css/puls4" />
+	<title>Puls4: Comunidad para gente atractiva</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap\dist\css\bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/puls4.css" />
 </head>
-<body>
+<body class="no-margin">
 	<header>
-		<figure class = "logo">
+		<figure class ="logo no-margin left">
 			<img src="imagenes/logo.png" alt="puls4" />	
 		</figure>
-		<div class = "titular">
-			<h1 class="titulo">
-				Puls4: comunidad profesional de gente atractiva y millonaria
+		<div class ="titular">
+			<h1 class="titulo no-margin">
+				Puls4: comunidad profesional de gente mas atractiva que Bjerke Ingels
 			</h1>
 			<div>
-				<a href="" class="filtro">
-					Responsive Design
+				<a class="filtro"  href="#">
+					y otra gente realmente atractiva que vive por ahi
 				</a>
 				<a class="publicar">
 					Publicar
@@ -25,29 +27,71 @@
 			</div>
 		</div>
 		<div class = "usuario">
-			<figure class="avatar">
+			<figure class="avatar  no-margin">
 				<img src="imagenes/avatar.jpg" alt="JuanJose">
 			</figure>
 			<a class="flechita" href="#">
-				
 			</a>
 		</div>
 	</header>
 	<!-- barra de navegacion -->
 	<nav>
-		
+		<ul class="menu">
+			<li><a href="#">Python</a></li>
+			<li><a href="#">HTML5</a></li>
+			<li><a href="#">JavaScript</a></li>
+			<li><a href="#">Css3</a></li>
+			<li><a href="#">Django</a></li>
+			<li><a href="#">Python</a></li>
+			<li><a href="#">HTML5</a></li>
+			<li><a href="#">JavaScript</a></li>
+			<li><a href="#">Css3</a></li>
+			<li><a href="#">Django</a></li>
+		</ul>
 	</nav>
 	
 	<section>
-		<article>
-			
+		<article class="post">
+			<figure class="imagen">
+				<img src="imagenes/foto.jpg" alt="foto De Alguien">
+				</img>
+			</figure>
+			<div class="textos">
+				<div class="descripcion">
+					<div class="detalles">
+						<h2 class="titulo">
+							Como ser mas atractivo que Bjerke, es facil!
+						</h2>
+						<p class="autor">
+							por <a href="#"> Duilio Sanchez</a>
+						</p>
+						<a class="tag">Javascript</a>
+						<p class="fecha">
+							hace <strong>20</strong> min
+						</p>
+					</div>
+				</div>
+				<div class="acciones">
+					<div class="votos">
+						<a href="#" class="up"></a>
+						<a href="#" class="down"></a>
+						<span class="total">155</span>
+					</div>
+					<div class="datos">
+						<a class="comentarios" href = "#">
+							10
+						</a>
+						<a class="estrellita" href = "#"></a>
+					</div>
+				</div>
+			</div>
 		</article>
 	</section>
 	
 	<footer>
 		<h3 class ="powered">
 			<strong>
-				Powered by Platzi
+				Powered by LaunchZap
 			</strong>
 			<span class = "mejor">
 				mejorando.la 2013
